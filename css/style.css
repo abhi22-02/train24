@@ -197,9 +197,6 @@ button:hover {
     text-decoration: underline;
 }
 
-
-
-
 footer {
     background: #004d40;
     color: white;
@@ -291,7 +288,7 @@ footer {
 }
 
 
-@media (max-width: 768px) {
+@media screen and (min-width: 600px) and (max-width: 768px) {
     nav ul {
         flex-direction: column;
         align-items: center;
@@ -310,7 +307,7 @@ footer {
     }
 }
 
-@media (max-width: 480px) {
+@media screen and (min-width: 993px) and (max-width: 1200px){
     .hero h1 {
         font-size: 1.5em;
     }
